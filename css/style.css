@@ -30,6 +30,7 @@
     justify-content: space-between;
     gap: 30px;
     padding: 10px 0;
+    
 
     margin-bottom: 60px;
 }
@@ -125,6 +126,8 @@ transition: transform 0.8s ease-in-out, color 0.3s ease;
 
 
 /* BUTTON SIGN UP */
+
+
 .header__inner-signup {
     display: flex;
     align-items: center;
@@ -157,7 +160,6 @@ transition: transform 0.8s ease-in-out, color 0.3s ease;
 .header__link-text:hover {
     color: #01be8c;
 }
-
 
 /* MAIN */
 
@@ -919,4 +921,40 @@ margin-bottom: 19px;
 }
 
 
+/* ADAPTIV */
 
+/* HEADER */
+
+@media (max-width: 920px) {
+  .header__inner {
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.header__logo {
+  width: 120px;
+  height: auto;
+margin-top: 10px;
+  
+}
+
+.menu__list {
+  flex-direction: row;
+  gap: 30px;
+}
+
+.menu__item {
+  margin-right: 0;
+}
+
+.header__inner-signup {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 10px;
+}
+}
+/* FINISH HEADER */
+
+/* MAIN */
+/* introducing */
