@@ -962,6 +962,7 @@ margin-top: 10px;
 .main {
   padding: 20px;
   height: auto;
+  margin-bottom: 30px;
 }
 
 .main__inner {
@@ -969,6 +970,8 @@ margin-top: 10px;
   gap: 20px;
   align-items: center;
   text-align: center;
+
+
 }
 
 .main__left img {
@@ -990,7 +993,42 @@ line-height: 22px;
   font-size: 16px;
 }
 
-/* MAIN FINISH */
 /* introducing FINISH */
+
+
+/* lastofblog */
+
+.blog__title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.main__inner-wrapper {
+  flex-direction: column;
+  gap: 30px;
+
+  margin-bottom: 40px;
+  padding-bottom: 0;
+}
+
+
+.all__blog-view {
+  text-align: center;
+}
+
+.blog__subtitle-text {
+  text-align: center;
+  font-size: 30px;
+
+  margin-bottom: 15px;
+}
+
+.blog__paragraph-text {
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* lastofblog */
 }
 
