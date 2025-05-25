@@ -1,0 +1,59 @@
+/* 1. Устанавливаем box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Убираем отступы и поля */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-family: "Bitter", serif;
+}
+
+/* 3. Удаляем стандартные стили списков */
+ul, ol {
+  list-style: none;
+}
+
+/* 4. Удаляем подчёркивание у ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Убираем рамки у изображений */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border: 0;
+}
+
+/* 6. Устанавливаем базовый шрифт и фон */
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* 7. Убираем обводку у кнопок */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* 8. Сброс стилей форм */
+input, textarea, select, button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
