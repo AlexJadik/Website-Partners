@@ -925,7 +925,7 @@ margin-bottom: 19px;
 
 /* HEADER */
 
-@media (max-width: 920px) {
+@media (max-width: 768px) {
   .header__inner {
   flex-direction: column;
   margin-bottom: 30px;
@@ -953,8 +953,44 @@ margin-top: 10px;
   align-items: flex-end;
   gap: 10px;
 }
-}
+
 /* FINISH HEADER */
 
 /* MAIN */
 /* introducing */
+
+.main {
+  padding: 20px;
+  height: auto;
+}
+
+.main__inner {
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.main__left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.introducing__title {
+  font-size: 32px;
+  line-height: 38px;
+}
+.introducing__desc, .introducing__desc-text {
+font-size: 16px;
+line-height: 22px;
+}
+
+.default-btn {
+  width: 100%;
+  font-size: 16px;
+}
+
+/* MAIN FINISH */
+/* introducing FINISH */
+}
+
