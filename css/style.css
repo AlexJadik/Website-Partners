@@ -1011,6 +1011,9 @@ line-height: 22px;
   padding-bottom: 0;
 }
 
+.subtitle__text {
+  font-size: 15px;
+}
 
 .all__blog-view {
   text-align: center;
@@ -1029,6 +1032,33 @@ line-height: 22px;
   font-size: 14px;
 }
 
-/* lastofblog */
+.main__container {
+  margin-bottom: 40px;
+}
+
+/* lastofblog FINISH*/
+
+
+/* viewlist */
+
+.view__inner-wrapper {
+  width: 100%;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  gap: 10px;
+}
+
+.icon__tool {
+  width: 40px;
+  height: auto;
+}
+
+.inner__title {
+font-size: 25px;
+}
+
+.btn__default {
+  padding: 13px 50px;
+}
 }
 
