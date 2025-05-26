@@ -1106,5 +1106,47 @@ font-size: 10px;
 }
 
 /* Product Reviews FINISH */
+
+/* SIGNUP */
+
+.title__right {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.paragraph__inner_right {
+  align-items: center;
+  text-align: center;
+}
+.wrapper__inner_left {
+  display: none;
+}
+
+.mail__icon {
+  width: 50px;
+}
+
+.title__inner_text {
+  font-size: 25px;
+}
+
+.paragraph__right_text {
+  font-size: 17px;
+}
+
+.button__inner_right {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.submit__btn  {
+  padding: 15px 40px;
+}
+
+.container__view_signup {
+  margin-bottom: 0;
+}
 }
 
