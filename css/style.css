@@ -1148,5 +1148,52 @@ font-size: 10px;
 .container__view_signup {
   margin-bottom: 0;
 }
+
+/* SIGNUP FINISH */
+
+/* FOOTER */
+
+.footer {
+  padding: 20px 15px;
+}
+
+.footer__logo_left {
+  display: inline-block;
+margin-right: 0;
+
+
+}
+
+.footer__inner_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.all__about_block {
+margin: 0;
+}
+
+.footer__midl_block {
+  display: none;
+}
+
+.footer__left_block {
+  text-align: center;
+ align-items: center;
+  width: 450px;
+}
+
+
+/* FOOTER FINISH */
 }
 
