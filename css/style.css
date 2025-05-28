@@ -1308,11 +1308,79 @@ margin: 0;
 
   .introducing__desc-text {
     font-size: 14px;
+
   }
 
   .introducing__desc-text span {
     font-size: 15px;
   }
+
+  .introducing__desc-text br {
+    display: none;
+  }
+
+  /* introducing FINISH */
+
+  /* lastofblog */
+
+.blog__title-text {
+  font-size: 26px;
+}
+
+.blog__img-left {
+max-width: 330px;
+height: auto;
+padding-left: 40px;
+}
+
+.blog__subtitle-text {
+  font-size: 22px;
+}
+
+.blog__paragraph-text br {
+  display: none;
+}
+
+.icon__inner {
+  max-width: 200px;
+}
+
+/* lastofblog FINISH */
+
+/* viewlist */
+.container__view {
+  margin-bottom: 50px;
+}
+.view__inner-wrapper {
+  width: 100%;
+  flex-direction: column;
+  padding: 20px 10px 20px 20px;
+  gap: 10px;
+
+
+}
+
+.icon__tool {
+  width: 40px;
+  height: auto;
+}
+
+.inner__title {
+ 
+
+font-size: 20px;
+}
+
+.btn__default {
+  padding: 13px 40px;
+}
+
+
+/* viewlist FINISH */
+
+/* Product Reviews */
+
+
 }
 
 
