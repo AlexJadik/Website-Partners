@@ -1380,6 +1380,48 @@ font-size: 20px;
 
 /* Product Reviews */
 
+@media (max-width: 480px) {
+  .product__reviews_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 12px;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch; /* плавный scroll на iOS */
+  }
+
+  .product__reviews_card {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    min-width: 260px;
+  }
+
+  .img__reviews {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .product__paragraph {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .product__review_title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .all__blog-view {
+    margin-top: 16px;
+    text-align: center;
+  }
+}
 
 }
 
