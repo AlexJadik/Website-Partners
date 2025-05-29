@@ -1425,6 +1425,35 @@ h1.product__review_title.product__reviews_text {
     margin-top: 16px;
     text-align: center;
   }
+
+  /* Product Reviews FINISH */
+
+  /* SIGNUP */
+
+.container__main {
+  padding: 0 15px;
+}
+
+.mail__icon {
+  max-width: 100%;
+    height: auto;
+}
+
+.signup__wrapper {
+   flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.input__email {
+  width: 100%;
+}
+
+.paragraph__right_text {
+  font-size: 14px;
+    line-height: 1.5;
+}
+
+/* SIGNUP FINISH */
 }
 
 
