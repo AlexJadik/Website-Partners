@@ -1454,6 +1454,71 @@ h1.product__review_title.product__reviews_text {
 }
 
 /* SIGNUP FINISH */
+
+/* FOOTER */
+
+.footer {
+  max-width: 420px;
+  height: 900px;
+}
+.all__about_block {
+  padding: 0;
+}
+
+.footer__icons {
+  display: none;
+}
+
+.footer__inner_wrapper {
+  max-width: 100%;
+   flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.introducing__desc-parag {
+max-width: 90%;
+padding-left: 40px;
+padding-top: 10px;
+}
+
+.footer__title_right_text {
+  font-size: 25px;
+}
+
+.search__wrapper {
+  max-width: 90%;
+height: 40px;
+}
+
+.footer__about_info {
+  text-decoration: underline;
+}
+
+.footer__last_left {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.footer__about_me {
+  text-align: center;
+}
+.custom__line_long {
+  max-width: 100%;
+}
+
+.footer__last_text {
+  gap: 20px;
+  flex-direction: column;
+  text-decoration: underline;
+  align-items: center;
+}
+
+.footer__last_subtitle {
+  color: #015585;
+  font-weight: bold;
+}
 }
 
 
