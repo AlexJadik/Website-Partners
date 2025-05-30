@@ -1479,7 +1479,11 @@ width: 100%;
   padding: 0;
 }
 
-.footer__icons {
+.footer__left_block {
+  width: 100%;
+}
+
+.footer__midl_block {
   display: none;
 }
 
@@ -1520,7 +1524,7 @@ height: 40px;
   text-align: center;
 }
 .custom__line_long {
-  max-width: 100%;
+  width: 100%;
 }
 
 .footer__last_text {
@@ -1534,11 +1538,27 @@ height: 40px;
   color: #015585;
   font-weight: bold;
 }
+
+.footer__icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
 }
 
 
 
-
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 100vw;
+  width: 10px;
+  height: 100vh;
+  background: rgba(255, 0, 0, 0.5);
+  z-index: 9999;
+  pointer-events: none;
+}
 
 
 
