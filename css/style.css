@@ -7,7 +7,6 @@ html, body {
   width: 100%;
   overflow-x: hidden;
   overscroll-behavior-x: contain;
-  touch-action: pan-y;
 }
 
 
@@ -1405,6 +1404,8 @@ h1.product__review_title.product__reviews_text {
     padding-bottom: 10px;
     -webkit-overflow-scrolling: touch; /* плавный scroll на iOS */
 
+    touch-action: pan-x;
+    overscroll-behavior-x: auto;
   }
   
   .product__title_text {
