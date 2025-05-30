@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
-  outline: 1px solid red;
+   outline: 1px solid rgba(255, 0, 0, 0.1); /* временно для отладки */
 }
 
 html, body {
   width: 100%;
   overflow-x: hidden;
+  overscroll-behavior-x: contain;
+  touch-action: pan-y;
 }
 
 
@@ -616,7 +618,7 @@ padding-left: 25px;
     background-size: cover; /* Масштабирование */
   background-repeat: no-repeat;
   background-position: center;
-   
+   width: 100%;
    margin-bottom: 100px;
 }
 
@@ -1403,8 +1405,6 @@ h1.product__review_title.product__reviews_text {
     padding-bottom: 10px;
     -webkit-overflow-scrolling: touch; /* плавный scroll на iOS */
 
-    touch-action: pan-y;
-    overscroll-behavior-x: contain;
   }
   
   .product__title_text {
@@ -1548,17 +1548,7 @@ height: 40px;
 
 
 
-body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 100vw;
-  width: 10px;
-  height: 100vh;
-  background: rgba(255, 0, 0, 0.5);
-  z-index: 9999;
-  pointer-events: none;
-}
+
 
 
 
