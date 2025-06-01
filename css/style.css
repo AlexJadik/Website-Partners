@@ -29,7 +29,7 @@ margin: 0;
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
+    opacity: 1 !important;
   }
 }
 
@@ -445,7 +445,6 @@ display: inline-block;
 }
 
 /* viewlist */
-
 .container__view {
     background-image: url(../assets/img/background.png);
     background-size: cover; /* Масштабирование */

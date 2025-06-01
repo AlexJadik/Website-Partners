@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <title>Partners</title>
     
 
@@ -152,11 +153,11 @@
     <section class="viewlist">
       <div class="container__main container__view">
         <div class="view__inner-wrapper">
-        <div class="view__our-list" data-aos="fade-right">
+        <div class="view__our-list">
           <img src="assets/img/toolsicon.png" alt="toolicon" class="icon__tool">
           <h1 class="inner__title">View our list of the best products in lawncare.</h1>
         </div>
-        <div class="btn__default_link" data-aos="fade-left">
+        <div class="btn__default_link">
           <button class="btn__default btn__default-text">See the list</button>
         </div>
         </div>
@@ -323,14 +324,16 @@
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init({
-    once: false, // если хочешь анимацию только 1 раз
-    duration: 2500, // длительность в миллисекундах
+    once: false,
+    mirror: true,
+    duration: 800,
+    offset: 120
   });
 </script>
+
 <script>
   if (location.protocol === 'http:' || location.protocol === 'https:') {
     let scrollPos = sessionStorage.getItem('scrollPos');
